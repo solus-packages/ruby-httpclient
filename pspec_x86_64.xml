@@ -1,0 +1,105 @@
+<PISI>
+    <Source>
+        <Name>ruby-httpclient</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>Ruby</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - httpclient</Summary>
+        <Description xml:lang="en">Gives something like the functionality of libwww-perl (LWP) in Ruby.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-httpclient</Name>
+        <Summary xml:lang="en">RubyGem - httpclient</Summary>
+        <Description xml:lang="en">Gives something like the functionality of libwww-perl (LWP) in Ruby.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/bin/httpclient</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/bin/jsonclient</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/hexdump.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/http-access2.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/http-access2/cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/http-access2/http.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/auth.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/cacert.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/cacert1024.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/connection.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/http.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/include_client.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/jruby_ssl_socket.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/session.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/ssl_config.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/ssl_socket.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/timeout.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/util.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/httpclient/webagent-cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/jsonclient.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/lib/oauthclient.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/async.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/auth.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/dav.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/howto.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/jsonclient.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/oauth_buzz.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/oauth_friendfeed.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/oauth_twitter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/ssl/0cert.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/ssl/0key.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/ssl/1000cert.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/ssl/1000key.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/ssl/htdocs/index.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/ssl/ssl_client.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/ssl/webrick_httpsd.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/stream.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/thread.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/sample/wcat.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/ca-chain.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/ca.cert</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/client-pass.key</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/client.cert</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/client.key</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/htdigest</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/htpasswd</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/jruby_ssl_socket/test_pemutils.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/runner.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/server.cert</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/server.key</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/sslsvr.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/subca.cert</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_auth.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_hexdump.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_http-access2.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_httpclient.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_include_client.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_jsonclient.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_ssl.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/httpclient-2.8.3/test/test_webagent-cookie.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/httpclient-2.8.3.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>2.8.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
