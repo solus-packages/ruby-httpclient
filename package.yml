@@ -1,6 +1,6 @@
 name       : ruby-httpclient
 version    : 2.8.3
-release    : 3
+release    : 4
 source     :
     - https://rubygems.org/downloads/httpclient-2.8.3.gem : 2951e4991214464c3e92107e46438527d23048e634f3aee91c719e0bdfaebda6
 license    : Ruby
@@ -9,8 +9,9 @@ summary    : RubyGem - httpclient
 description: |
     Gives something like the functionality of libwww-perl (LWP) in Ruby.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}
